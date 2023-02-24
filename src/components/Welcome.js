@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
 class Welcome extends Component {
-  render() {
+  render() { 
+    const {fname, lname} = this.props
+    // const {state1, state2} = this.state 
     return (
       <h1>
-        Hello {this.props.fname} {this.props.lname}
+        Hello {fname} {lname}
       </h1>
     );
   }
