@@ -4,11 +4,14 @@ import "./App.css";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <Greet lname="Nai" fname="Akki">
+      <Message />
+
+      {/* <Greet lname="Nai" fname="Akki">
         <p>This is children prop</p>
       </Greet>
       <Greet lname="Maru" fname="Keval">
@@ -17,7 +20,7 @@ function App() {
       <Greet lname="Laheri" fname="Shruti" />
       <Welcome fname="akki" lname="nai"/>
       <Welcome fname="shruti" lname="laheri"/>
-      <Welcome fname="keval" lname="maru"/>
+      <Welcome fname="keval" lname="maru"/> */}
       {/* <Hello /> */}
     </div>
   );
