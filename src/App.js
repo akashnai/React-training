@@ -6,10 +6,15 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick  />
+      <ClassClick />
+
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet lname="Nai" fname="Akki">
@@ -19,7 +24,7 @@ function App() {
         <button>Action</button>
       </Greet> */}
       {/* <Greet lname="Laheri" fname="Shruti" /> */}
-      <Welcome fname="akki" lname="nai"/>
+      {/* <Welcome fname="akki" lname="nai"/> */}
       {/* <Welcome fname="shruti" lname="laheri"/> */}
       {/* <Welcome fname="keval" lname="maru"/> */}
       {/* <Hello /> */}
